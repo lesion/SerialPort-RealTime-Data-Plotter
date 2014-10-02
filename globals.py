@@ -101,5 +101,5 @@ def enumerate_serial_ports():
                 pass
         return outAvailablePorts
     else:
-        return glob.glob('/dev/tty.*')
+        return glob.glob('/dev/tty*')
 #----------------------------------------------------------------------
